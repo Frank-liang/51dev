@@ -1,0 +1,3730 @@
+*** Starting uWSGI 2.0 (64bit) on [Fri Dec 25 17:21:52 2015] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+writing pidfile to /var/run/uwsgi_www.a.com.pid
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1318f70
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 28346, cores: 1)
+spawned uWSGI worker 2 (pid: 28347, cores: 1)
+Sat Jan  9 14:57:05 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 28347)...
+Gracefully killing worker 1 (pid: 28346)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 14:57:07 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc05f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 3151, cores: 1)
+spawned uWSGI worker 2 (pid: 3152, cores: 1)
+Sat Jan  9 14:57:45 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 3152)...
+Gracefully killing worker 1 (pid: 3151)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 14:57:46 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x275bf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 3368, cores: 1)
+spawned uWSGI worker 2 (pid: 3369, cores: 1)
+Sat Jan  9 14:57:53 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 3369)...
+Gracefully killing worker 1 (pid: 3368)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 14:57:54 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf1df00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 3472, cores: 1)
+spawned uWSGI worker 2 (pid: 3473, cores: 1)
+Sat Jan  9 14:59:09 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 3473)...
+Gracefully killing worker 1 (pid: 3472)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 14:59:10 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2184f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 3974, cores: 1)
+spawned uWSGI worker 2 (pid: 3975, cores: 1)
+Sat Jan  9 15:01:50 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 3974)...
+Gracefully killing worker 2 (pid: 3975)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:01:51 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1212f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 5093, cores: 1)
+spawned uWSGI worker 2 (pid: 5094, cores: 1)
+Sat Jan  9 15:02:09 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 5094)...
+Gracefully killing worker 1 (pid: 5093)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:02:10 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a1af00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 5255, cores: 1)
+spawned uWSGI worker 2 (pid: 5256, cores: 1)
+Sat Jan  9 15:03:52 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 5255)...
+Gracefully killing worker 2 (pid: 5256)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:03:53 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x24cff00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 6023, cores: 1)
+spawned uWSGI worker 2 (pid: 6024, cores: 1)
+Sat Jan  9 15:04:00 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 6023)...
+Gracefully killing worker 2 (pid: 6024)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:04:01 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25d0f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 6093, cores: 1)
+spawned uWSGI worker 2 (pid: 6094, cores: 1)
+Sat Jan  9 15:05:25 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 6093)...
+Gracefully killing worker 2 (pid: 6094)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:05:26 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1035f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 6792, cores: 1)
+spawned uWSGI worker 2 (pid: 6793, cores: 1)
+Sat Jan  9 15:06:20 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 6793)...
+Gracefully killing worker 1 (pid: 6792)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:06:21 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2796f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 7151, cores: 1)
+spawned uWSGI worker 2 (pid: 7152, cores: 1)
+Sat Jan  9 15:06:43 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 7152)...
+Gracefully killing worker 1 (pid: 7151)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:06:44 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x11d2f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 7322, cores: 1)
+spawned uWSGI worker 2 (pid: 7323, cores: 1)
+Sat Jan  9 15:06:53 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 7323)...
+Gracefully killing worker 1 (pid: 7322)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:06:54 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xcaef00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 7432, cores: 1)
+spawned uWSGI worker 2 (pid: 7433, cores: 1)
+Sat Jan  9 15:07:10 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 7432)...
+Gracefully killing worker 2 (pid: 7433)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:07:11 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26e5f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 7538, cores: 1)
+spawned uWSGI worker 2 (pid: 7539, cores: 1)
+Sat Jan  9 15:07:19 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 7538)...
+Gracefully killing worker 2 (pid: 7539)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:07:20 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26d9f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 7569, cores: 1)
+spawned uWSGI worker 2 (pid: 7570, cores: 1)
+Sat Jan  9 15:07:37 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 7570)...
+Gracefully killing worker 1 (pid: 7569)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:07:38 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2770f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 7707, cores: 1)
+spawned uWSGI worker 2 (pid: 7708, cores: 1)
+Sat Jan  9 15:11:57 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 7708)...
+Gracefully killing worker 1 (pid: 7707)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:11:58 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1aabf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 9828, cores: 1)
+spawned uWSGI worker 2 (pid: 9829, cores: 1)
+Sat Jan  9 15:11:59 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 9828)...
+Gracefully killing worker 2 (pid: 9829)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:12:00 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x279cf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 9862, cores: 1)
+spawned uWSGI worker 2 (pid: 9863, cores: 1)
+Sat Jan  9 15:12:48 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 9863)...
+Gracefully killing worker 1 (pid: 9862)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:12:49 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xbe8f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 10170, cores: 1)
+spawned uWSGI worker 2 (pid: 10171, cores: 1)
+Sat Jan  9 15:13:28 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 10171)...
+Gracefully killing worker 1 (pid: 10170)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:13:29 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2231f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 10437, cores: 1)
+spawned uWSGI worker 2 (pid: 10438, cores: 1)
+Sat Jan  9 15:13:36 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 10438)...
+Gracefully killing worker 1 (pid: 10437)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:13:37 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe86f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 10500, cores: 1)
+spawned uWSGI worker 2 (pid: 10501, cores: 1)
+Sat Jan  9 15:14:31 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 10501)...
+Gracefully killing worker 1 (pid: 10500)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:14:32 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f26f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 10986, cores: 1)
+spawned uWSGI worker 2 (pid: 10987, cores: 1)
+Sat Jan  9 15:14:49 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 10987)...
+Gracefully killing worker 1 (pid: 10986)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:14:50 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd04f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11102, cores: 1)
+spawned uWSGI worker 2 (pid: 11103, cores: 1)
+Sat Jan  9 15:14:54 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 11103)...
+Gracefully killing worker 1 (pid: 11102)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:14:55 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a91f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11180, cores: 1)
+spawned uWSGI worker 2 (pid: 11181, cores: 1)
+Sat Jan  9 15:15:04 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 11180)...
+Gracefully killing worker 2 (pid: 11181)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:15:05 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25aaf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11252, cores: 1)
+spawned uWSGI worker 2 (pid: 11253, cores: 1)
+Sat Jan  9 15:15:15 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 11253)...
+Gracefully killing worker 1 (pid: 11252)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:15:16 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd79f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11300, cores: 1)
+spawned uWSGI worker 2 (pid: 11301, cores: 1)
+Sat Jan  9 15:15:17 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 11301)...
+Gracefully killing worker 1 (pid: 11300)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:15:18 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1202f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11310, cores: 1)
+spawned uWSGI worker 2 (pid: 11311, cores: 1)
+Sat Jan  9 15:15:47 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 11310)...
+Gracefully killing worker 2 (pid: 11311)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:15:48 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x17cdf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11548, cores: 1)
+spawned uWSGI worker 2 (pid: 11549, cores: 1)
+Sat Jan  9 15:15:51 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 11548)...
+Gracefully killing worker 2 (pid: 11549)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:15:52 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2354f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11603, cores: 1)
+spawned uWSGI worker 2 (pid: 11604, cores: 1)
+Sat Jan  9 15:16:08 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 11603)...
+Gracefully killing worker 2 (pid: 11604)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:16:09 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d53f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11717, cores: 1)
+spawned uWSGI worker 2 (pid: 11718, cores: 1)
+Sat Jan  9 15:16:10 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 11718)...
+Gracefully killing worker 1 (pid: 11717)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:16:11 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd47f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11729, cores: 1)
+spawned uWSGI worker 2 (pid: 11730, cores: 1)
+Sat Jan  9 15:16:20 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 11730)...
+Gracefully killing worker 1 (pid: 11729)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:16:21 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c7af00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11788, cores: 1)
+spawned uWSGI worker 2 (pid: 11789, cores: 1)
+Sat Jan  9 15:16:22 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 11789)...
+Gracefully killing worker 1 (pid: 11788)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:16:23 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1fadf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11814, cores: 1)
+spawned uWSGI worker 2 (pid: 11815, cores: 1)
+Sat Jan  9 15:16:29 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 11815)...
+Gracefully killing worker 1 (pid: 11814)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:16:30 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x12d0f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 11864, cores: 1)
+spawned uWSGI worker 2 (pid: 11865, cores: 1)
+Sat Jan  9 15:17:16 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 11864)...
+Gracefully killing worker 2 (pid: 11865)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:17:17 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f25f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 12208, cores: 1)
+spawned uWSGI worker 2 (pid: 12209, cores: 1)
+Sat Jan  9 15:23:05 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12208)...
+Gracefully killing worker 2 (pid: 12209)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:23:06 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x15a0f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 14588, cores: 1)
+spawned uWSGI worker 2 (pid: 14589, cores: 1)
+Sat Jan  9 15:23:53 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 14588)...
+Gracefully killing worker 2 (pid: 14589)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:23:54 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x223bf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 14971, cores: 1)
+spawned uWSGI worker 2 (pid: 14972, cores: 1)
+Sat Jan  9 15:24:09 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 14972)...
+Gracefully killing worker 1 (pid: 14971)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:24:10 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20aff00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 15070, cores: 1)
+spawned uWSGI worker 2 (pid: 15071, cores: 1)
+Sat Jan  9 15:25:14 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 15070)...
+Gracefully killing worker 2 (pid: 15071)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:25:15 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x18daf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 15485, cores: 1)
+spawned uWSGI worker 2 (pid: 15486, cores: 1)
+Sat Jan  9 15:25:27 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 15486)...
+Gracefully killing worker 1 (pid: 15485)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:25:28 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d41f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 15663, cores: 1)
+spawned uWSGI worker 2 (pid: 15664, cores: 1)
+Sat Jan  9 15:25:34 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 15664)...
+Gracefully killing worker 1 (pid: 15663)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:25:35 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd95f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 15716, cores: 1)
+spawned uWSGI worker 2 (pid: 15717, cores: 1)
+Sat Jan  9 15:25:38 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 15717)...
+Gracefully killing worker 1 (pid: 15716)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:25:39 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2824f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 15782, cores: 1)
+spawned uWSGI worker 2 (pid: 15783, cores: 1)
+Sat Jan  9 15:25:41 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 15783)...
+Gracefully killing worker 1 (pid: 15782)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:25:42 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xd01f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 15812, cores: 1)
+spawned uWSGI worker 2 (pid: 15813, cores: 1)
+Sat Jan  9 15:27:23 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 15813)...
+Gracefully killing worker 1 (pid: 15812)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:27:24 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x108cf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 16491, cores: 1)
+spawned uWSGI worker 2 (pid: 16492, cores: 1)
+Sat Jan  9 15:27:38 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 16491)...
+Gracefully killing worker 2 (pid: 16492)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:27:39 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe45f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 16630, cores: 1)
+spawned uWSGI worker 2 (pid: 16631, cores: 1)
+Sat Jan  9 15:27:57 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 16630)...
+Gracefully killing worker 2 (pid: 16631)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:27:58 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1189f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 16812, cores: 1)
+spawned uWSGI worker 2 (pid: 16813, cores: 1)
+Sat Jan  9 15:28:02 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 16813)...
+Gracefully killing worker 1 (pid: 16812)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:28:03 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xad1f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 16845, cores: 1)
+spawned uWSGI worker 2 (pid: 16846, cores: 1)
+Sat Jan  9 15:28:10 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 16846)...
+Gracefully killing worker 1 (pid: 16845)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:28:11 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25d4f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 16864, cores: 1)
+spawned uWSGI worker 2 (pid: 16865, cores: 1)
+Sat Jan  9 15:28:51 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 16865)...
+Gracefully killing worker 1 (pid: 16864)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:28:52 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2339f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 17176, cores: 1)
+spawned uWSGI worker 2 (pid: 17177, cores: 1)
+Sat Jan  9 15:29:04 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 17177)...
+Gracefully killing worker 1 (pid: 17176)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:29:05 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1185f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 17274, cores: 1)
+spawned uWSGI worker 2 (pid: 17275, cores: 1)
+Sat Jan  9 15:30:48 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 17275)...
+Gracefully killing worker 1 (pid: 17274)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:30:49 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2686f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 18041, cores: 1)
+spawned uWSGI worker 2 (pid: 18042, cores: 1)
+Sat Jan  9 15:30:51 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 18041)...
+Gracefully killing worker 2 (pid: 18042)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:30:53 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc3df00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 18084, cores: 1)
+spawned uWSGI worker 2 (pid: 18085, cores: 1)
+Sat Jan  9 15:32:17 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 18085)...
+Gracefully killing worker 1 (pid: 18084)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:32:18 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x141ff00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 18746, cores: 1)
+spawned uWSGI worker 2 (pid: 18747, cores: 1)
+Sat Jan  9 15:32:38 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 18746)...
+Gracefully killing worker 2 (pid: 18747)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:32:39 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x184bf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 18944, cores: 1)
+spawned uWSGI worker 2 (pid: 18945, cores: 1)
+Sat Jan  9 15:39:42 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 18945)...
+Gracefully killing worker 1 (pid: 18944)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:39:43 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xcebf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 21985, cores: 1)
+spawned uWSGI worker 2 (pid: 21986, cores: 1)
+Sat Jan  9 15:39:51 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 21986)...
+Gracefully killing worker 1 (pid: 21985)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:39:52 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e75f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 22075, cores: 1)
+spawned uWSGI worker 2 (pid: 22076, cores: 1)
+Sat Jan  9 15:40:36 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 22075)...
+Gracefully killing worker 2 (pid: 22076)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:40:37 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xae3f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 22399, cores: 1)
+spawned uWSGI worker 2 (pid: 22400, cores: 1)
+Sat Jan  9 15:40:55 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 22400)...
+Gracefully killing worker 1 (pid: 22399)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:40:56 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2700f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 22590, cores: 1)
+spawned uWSGI worker 2 (pid: 22591, cores: 1)
+Sat Jan  9 15:40:57 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 22590)...
+Gracefully killing worker 2 (pid: 22591)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:40:58 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e7bf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 22611, cores: 1)
+spawned uWSGI worker 2 (pid: 22612, cores: 1)
+Sat Jan  9 15:40:59 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 22612)...
+Gracefully killing worker 1 (pid: 22611)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:41:00 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1576f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 22633, cores: 1)
+spawned uWSGI worker 2 (pid: 22634, cores: 1)
+Sat Jan  9 15:47:36 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 22633)...
+Gracefully killing worker 2 (pid: 22634)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:47:37 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xfadf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 25296, cores: 1)
+spawned uWSGI worker 2 (pid: 25297, cores: 1)
+Sat Jan  9 15:47:51 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 25296)...
+Gracefully killing worker 2 (pid: 25297)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:47:52 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2110f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 25433, cores: 1)
+spawned uWSGI worker 2 (pid: 25434, cores: 1)
+Sat Jan  9 15:51:15 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 25434)...
+Gracefully killing worker 1 (pid: 25433)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:51:16 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c2ff00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 26734, cores: 1)
+spawned uWSGI worker 2 (pid: 26735, cores: 1)
+Sat Jan  9 15:51:21 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 26734)...
+Gracefully killing worker 2 (pid: 26735)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:51:22 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x243ff00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 26768, cores: 1)
+spawned uWSGI worker 2 (pid: 26769, cores: 1)
+Sat Jan  9 15:52:22 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 26769)...
+Gracefully killing worker 1 (pid: 26768)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:52:23 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x17f4f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 27151, cores: 1)
+spawned uWSGI worker 2 (pid: 27152, cores: 1)
+Sat Jan  9 15:52:47 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 27152)...
+Gracefully killing worker 1 (pid: 27151)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:52:48 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xda2f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 27379, cores: 1)
+spawned uWSGI worker 2 (pid: 27380, cores: 1)
+Sat Jan  9 15:53:25 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 27379)...
+Gracefully killing worker 2 (pid: 27380)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:53:26 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x11e9f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 27635, cores: 1)
+spawned uWSGI worker 2 (pid: 27636, cores: 1)
+Sat Jan  9 15:53:31 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 27636)...
+Gracefully killing worker 1 (pid: 27635)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:53:32 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1369f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 27686, cores: 1)
+spawned uWSGI worker 2 (pid: 27687, cores: 1)
+Sat Jan  9 15:53:35 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 27687)...
+Gracefully killing worker 1 (pid: 27686)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:53:36 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8e8f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 27718, cores: 1)
+spawned uWSGI worker 2 (pid: 27719, cores: 1)
+Sat Jan  9 15:54:15 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 27718)...
+Gracefully killing worker 2 (pid: 27719)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:54:16 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x268ef00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 27992, cores: 1)
+spawned uWSGI worker 2 (pid: 27993, cores: 1)
+Sat Jan  9 15:56:27 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 27993)...
+Gracefully killing worker 1 (pid: 27992)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:56:28 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a23f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 28858, cores: 1)
+spawned uWSGI worker 2 (pid: 28859, cores: 1)
+Sat Jan  9 15:56:42 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28858)...
+Gracefully killing worker 2 (pid: 28859)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:56:43 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2296f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 28969, cores: 1)
+spawned uWSGI worker 2 (pid: 28970, cores: 1)
+Sat Jan  9 15:56:49 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28969)...
+Gracefully killing worker 2 (pid: 28970)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:56:50 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1af1f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 29043, cores: 1)
+spawned uWSGI worker 2 (pid: 29044, cores: 1)
+Sat Jan  9 15:56:52 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 29044)...
+Gracefully killing worker 1 (pid: 29043)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:56:53 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x136df00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 29080, cores: 1)
+spawned uWSGI worker 2 (pid: 29081, cores: 1)
+Sat Jan  9 15:58:32 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 29080)...
+Gracefully killing worker 2 (pid: 29081)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:58:33 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x14c9f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 29769, cores: 1)
+spawned uWSGI worker 2 (pid: 29770, cores: 1)
+Sat Jan  9 15:58:44 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 29770)...
+Gracefully killing worker 1 (pid: 29769)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 15:58:45 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe30f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 29860, cores: 1)
+spawned uWSGI worker 2 (pid: 29861, cores: 1)
+Sat Jan  9 16:25:08 2016 - *** /data/devops-1/api has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 29861)...
+Gracefully killing worker 1 (pid: 29860)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 16:25:09 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x272ef00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 7987, cores: 1)
+spawned uWSGI worker 2 (pid: 7988, cores: 1)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /
+closing all non-uwsgi socket fds > 2 (max_fd = 65536)...
+found fd 3 mapped to socket 0 (/tmp/uwsgi.sock)
+running /opt/Python-2.7.3/bin/uwsgi
+[uWSGI] getting INI configuration from /etc/uwsgi/uwsgi.ini
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan  9 16:26:02 2016] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-4) on 15 January 2014 12:48:23
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: zcooldb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /
+detected binary path: /opt/Python-2.7.3/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 30410
+limiting address space of processes...
+your process address space limit is 268435456 bytes (256 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65536
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /tmp/uwsgi.sock fd 3
+Python version: 2.7.3 (default, Nov 27 2013, 14:08:55)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-3)]
+Set PythonHome to /data/devops-1/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16c1f00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218280 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+ImportError: No module named myapp
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 28339)
+spawned uWSGI worker 1 (pid: 8411, cores: 1)
+spawned uWSGI worker 2 (pid: 8412, cores: 1)
